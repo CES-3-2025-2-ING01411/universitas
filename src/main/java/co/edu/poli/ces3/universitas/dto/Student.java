@@ -20,7 +20,7 @@ public class Student {
         lastName = "Meneses";
         age = 20;
         isMarried = false;
-        birthDate = new Date("1988-10-10");
+        birthDate = new Date(1988,10,10);
         System.out.println(birthDate.getTime());
     }
 
