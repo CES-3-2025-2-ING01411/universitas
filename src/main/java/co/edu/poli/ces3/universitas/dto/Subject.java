@@ -8,6 +8,9 @@ public class Subject {
     private StringBuilder description;
     private StatusEnum status;
 
+    public Subject(){
+
+    }
     public Subject(String id, StringBuilder description){
         this.id = id;
         this.description = description;
