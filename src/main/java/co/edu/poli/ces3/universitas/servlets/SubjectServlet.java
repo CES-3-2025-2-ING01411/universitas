@@ -19,7 +19,7 @@ import java.util.Vector;
 
 
 @WebServlet(name = "subjectServlet", value = "/subject")
-public class SubjectServlet extends HttpServlet {
+public class SubjectServlet extends MyServlet {
     private SubjectService service;
     @Override
     public void init() throws ServletException {
